@@ -173,7 +173,7 @@ function updateLink(link, type) {
                 <span class="inline-flex items-center leading-5"><Hourglass class="w-4 h-4 mr-1" /> {{ shortDate(link.expiration) }}</span>
               </TooltipTrigger>
               <TooltipContent>
-                <p>Expires At: {{ longDate(link.expiration) }}</p>
+                <p>过期时间: {{ longDate(link.expiration) }}</p>
               </TooltipContent>
             </Tooltip>
           </TooltipProvider>

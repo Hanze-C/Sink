@@ -14,7 +14,7 @@
         type="inverted"
         title="Start Deploy"
       >
-        Start Deploy
+        开始部署
       </HomeLink>
     </div>
   </div>
