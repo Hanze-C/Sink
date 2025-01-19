@@ -17,7 +17,7 @@
       <img
         class="w-64 aspect-[1256/632]"
         alt="Nuxt.js"
-        src="@/assets/images/Tailwindcss.png"
+        src="@/assets/images/tailwindcss.png"
       >
     </div>
   </div>
