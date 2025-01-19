@@ -1,6 +1,6 @@
 # ⚡ Sink
 
-**A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.**
+**一个 简单 / 快速 / 安全 的短链生成分析工具, 100%在CloudFlare上运行。**
 
 <a href="https://trendshift.io/repositories/10421" target="_blank">
   <img
