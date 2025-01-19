@@ -23,21 +23,21 @@ const colorMode = useColorMode()
     >
       <DropdownMenuItem
         class="cursor-pointer"
-        @click="colorMode.preference = 'light'"
+        @click="colorMode.preference = '浅色'"
       >
         <Sun class="w-4 h-4 mr-1" />
         Light
       </DropdownMenuItem>
       <DropdownMenuItem
         class="cursor-pointer"
-        @click="colorMode.preference = 'dark'"
+        @click="colorMode.preference = '深色'"
       >
         <Moon class="w-4 h-4 mr-1" />
         Dark
       </DropdownMenuItem>
       <DropdownMenuItem
         class="cursor-pointer"
-        @click="colorMode.preference = 'system'"
+        @click="colorMode.preference = '系统'"
       >
         <Laptop class="w-4 h-4 mr-1" />
         System

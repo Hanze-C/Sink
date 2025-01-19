@@ -55,8 +55,8 @@ onMounted(() => {
       class="relative h-10 w-full justify-start bg-background text-muted-foreground sm:w-32 md:w-48"
       @click="isOpen = true"
     >
-      <span class="hidden md:inline-flex">Search Links...</span>
-      <span class="inline-flex md:hidden">Search</span>
+      <span class="hidden md:inline-flex">搜索链接...</span>
+      <span class="inline-flex md:hidden">搜索</span>
       <kbd class="pointer-events-none absolute right-[0.3rem] top-[0.6rem] hidden h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex">
         <span class="text-xs">⌘</span>K
       </kbd>
@@ -67,7 +67,7 @@ onMounted(() => {
           <CommandInput placeholder="Type to search..." />
           <CommandList>
             <CommandEmpty v-if="searchTerm">
-              No links found.
+              没有找到任何链接
             </CommandEmpty>
             <CommandGroup heading="Links">
               <CommandItem v-for="link in filteredLinks" :key="link.item?.id" class="cursor-pointer" :value="link.item" @select="selectLink(link.item)">
