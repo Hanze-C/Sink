@@ -27,7 +27,7 @@ const features = ref([
     icon: Paintbrush,
   },
   {
-    title: 'AI Slug',
+    title: 'AI ',
     description:
           'Leverage AI to generate slugs.',
     icon: Sparkles,
@@ -48,7 +48,7 @@ const features = ref([
         功能
       </h2>
       <p class="my-8 text-lg md:mb-0 text-slate-600">
-        简单而实用
+        简单、实用、方便的功能
       </p>
     </div>
 

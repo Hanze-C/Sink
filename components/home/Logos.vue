@@ -14,6 +14,11 @@
         alt="Nuxt.js"
         src="@/assets/images/nuxtjs.png"
       >
+      <img
+        class="w-64 aspect-[1256/632]"
+        alt="Nuxt.js"
+        src="@/assets/images/Tailwindcss.png"
+      >
     </div>
   </div>
 </template>

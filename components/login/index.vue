@@ -36,10 +36,10 @@ async function onSubmit(form) {
   <Card class="w-full max-w-sm">
     <CardHeader>
       <CardTitle class="text-2xl">
-        Login
+        登录
       </CardTitle>
       <CardDescription>
-        Enter your site token to login.
+        输入您的站点密钥以继续
       </CardDescription>
     </CardHeader>
     <CardContent class="grid gap-4">
@@ -51,13 +51,13 @@ async function onSubmit(form) {
       >
         <Alert v-if="previewMode">
           <AlertCircle class="w-4 h-4" />
-          <AlertTitle>Tips</AlertTitle>
+          <AlertTitle>注意</AlertTitle>
           <AlertDescription>
-            The site token for preview mode is <code class="font-mono text-green-500">SinkCool</code> .
+            预览模式下的站点密钥为 <code class="font-mono text-green-500">SinkCool</code> .
           </AlertDescription>
         </Alert>
         <Button class="w-full">
-          Login
+          登录
         </Button>
       </AutoForm>
     </CardContent>
