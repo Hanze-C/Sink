@@ -74,32 +74,32 @@ watch(dateRange, (newValue) => {
     </SelectTrigger>
     <SelectContent>
       <SelectItem value="today">
-        Today
+        今天
       </SelectItem>
       <SelectItem value="last-24h">
-        Last 24 hours
+        24小时内
       </SelectItem>
       <SelectSeparator />
       <SelectItem value="this-week">
-        This week
+        本周内
       </SelectItem>
       <SelectItem value="last-7d">
-        Last 7 days
+        7天内
       </SelectItem>
       <SelectSeparator />
       <SelectItem value="this-month">
-        This month
+        本月内
       </SelectItem>
       <SelectItem value="last-30d">
-        Last 30 days
+        30天内
       </SelectItem>
       <SelectSeparator />
       <SelectItem value="last-90d">
-        Last 90 days
+        90天内
       </SelectItem>
       <SelectSeparator />
       <SelectItem value="custom">
-        Custom
+        自定义
       </SelectItem>
     </SelectContent>
   </Select>
@@ -115,10 +115,10 @@ watch(dateRange, (newValue) => {
         <div class="flex justify-center">
           <TabsList>
             <TabsTrigger value="date">
-              Date
+              日期
             </TabsTrigger>
             <TabsTrigger value="range">
-              Date Range
+              日期范围
             </TabsTrigger>
           </TabsList>
         </div>
